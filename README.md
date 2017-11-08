@@ -1,41 +1,32 @@
-# Plantilla para la práctica BONO de LPP
+# Practica Bono LPP (Problema concurso de programacion)
 
 ## Nombre y número del problema a Resolver: 
-   * Nombre del problema 
-   * Número del problema 
+   * Number of items In a Language Concatenation
+   * Número del problema: 10887
 
 ## Miembros del Equipo:
-   * Nombre Apellido (aluXXXXXXX@ull.edu.es) **Coordinador**
-   * Nombre Apellido (aluXXXXXXX@ull.edu.es)
-   * Nombre Apellido (aluXXXXXXX@ull.edu.es)
+   * Miguel jiménez Gomis (alu0100970876@ull.edu.es) **Coordinador**
+   * Pablo Martín Gonzalez (aluXXXXXXX@ull.edu.es)
 
-La estructura de directorios de la que se parte es la siguiente:
-
-```
-.
-├── docs              # Documentación del proyecto
-│   └── README.md
-├── README.md
-├── src               # Código fuente del proyecto
-│   └── README.md
-└── test              # Pruebas
-    └── README.md
-```
 
 ## Informe del trabajo realizado:
 
 1.- Descripción del problema
+  El problema nos pide que dados dos lenguajes, contemos el numero de elementos que tendra 
+  la concatenacion de ambos
+  
 2.- Tiempo de resolución en la base de datos 
-3.- Descripción de la implementación propuesta
+
+3.- Descripción de la implementación propuesta:
+  
+  *Introducimos los diferentes lenguajes en respectivos sets de datos, estos sets se concatenan en otro
+  y contamos el numero de elementos del set resultante*
+  
+  *Hemos decidido implementarlo con python, ya que es un lenguaje con el que es muy 
+  sencillo la manipulacion de cadenas*
+  
 4.- Tiempo de la implementación propuesta 
 
 
 ## Grafo de confirmaciones:
 
-```
-* commit 2b682fe3ed861b3caf24794c9a1e266659a7be90 (HEAD, master)
-  Author: Coromoto Leon <cleon@ull.edu.es>
-  Date:   Tue Oct 10 12:11:33 2017 +0100
-  
-      Creando la estructura
-```
